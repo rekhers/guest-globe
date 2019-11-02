@@ -19,6 +19,6 @@ export default function GlobeContainer() {
     }, []);
 
     return (
-        <div> hehe </div>
+        <Globe />
     );
 }

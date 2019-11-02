@@ -11,8 +11,7 @@ import guests from '../data/guestData.csv';
 */
 export async function fetchGuests() {
     try {
-        const data = await d3.csv(guests);
-        return data
+        return await d3.csv(guests);
     }
     catch(e) {
         console.log(`😿😿😿Error Meowssage: ${e}`);
